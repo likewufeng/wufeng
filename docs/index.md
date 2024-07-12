@@ -7,12 +7,12 @@ hero:
   text: "工作 & 学习 & 生活"
   tagline: 个人小站，主要记录一些个人碎片化的技术知识内容。
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: brand
+    #   text: Markdown Examples
+    #   link: /markdown-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: 工作
