@@ -20,6 +20,6 @@ features:
   - title: 学习
     details: 工作之余，学习一些对工作有帮助或者个人感兴趣的知识。
   - title: 生活
-    details: Work Life Balance. 好好生活，好好带娃...
+    details: Work Life Balance. 好好生活，好好带娃......
 ---
 
