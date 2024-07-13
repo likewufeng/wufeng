@@ -1,10 +1,10 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-12 18:02:23
+ * @LastEditTime: 2024-07-13 10:53:20
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
- * @FilePath: \wufeng\docs\.vitepress\config.mts
+ * @FilePath: \wufeng\src\.vitepress\config.mts
  * Copyright 版权声明
  */
 import { defineConfig } from 'vitepress'
@@ -43,5 +43,9 @@ export default defineConfig({
     }
   },
 
-  outDir: '../docs'
+  base: '/wufeng',
+
+  // lang: 'zh',
+  outDir: '../docs',
+  assetsDir: 'assets'
 })
