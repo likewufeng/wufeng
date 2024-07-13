@@ -1,7 +1,7 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-13 16:48:11
+ * @LastEditTime: 2024-07-13 17:18:35
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
  * @FilePath: \wufeng\src\.vitepress\config.mts
@@ -39,8 +39,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '书签', link: '/' },
-      { text: '随笔', link: '/' },
+      { text: '书签', link: '/bookmark' },
+      { text: '随笔', link: '/essay' },
       { text: '分类',
         items: [
           { text: 'HTML', link: '/categories/blog' },
@@ -48,7 +48,7 @@ export default defineConfig({
           { text: 'JavaScript', link: '/categories/me' }
         ]
       },
-      { text: '归档', link: '/' },
+      // { text: '归档', link: '/archives' },
       { text: '关于',
         items: [
           { text: '关于 Blog', link: '/about/blog' },
@@ -58,15 +58,24 @@ export default defineConfig({
       { text: '示例', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/about/': [
+        {
+          text: '关于',
+          items: [
+            { text: '关于 Blog', link: '/about/blog' },
+            { text: '关于我', link: '/about/me' }
+          ]
+        }
+      ]
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // }
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/likewufeng' }
@@ -112,6 +121,11 @@ export default defineConfig({
       //     }
       //   }
       // }
+    },
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 1991-present Evan You'
     }
   }
 })
