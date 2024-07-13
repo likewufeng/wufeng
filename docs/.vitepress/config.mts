@@ -43,5 +43,5 @@ export default defineConfig({
     }
   },
 
-  outDir: '../dist'
+  outDir: '../html'
 })
