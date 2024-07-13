@@ -1,7 +1,7 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-13 16:36:57
+ * @LastEditTime: 2024-07-13 16:48:11
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
  * @FilePath: \wufeng\src\.vitepress\config.mts
@@ -40,8 +40,21 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '书签', link: '/' },
+      { text: '随笔', link: '/' },
+      { text: '分类',
+        items: [
+          { text: 'HTML', link: '/categories/blog' },
+          { text: 'CSS', link: '/categories/me' },
+          { text: 'JavaScript', link: '/categories/me' }
+        ]
+      },
       { text: '归档', link: '/' },
-      { text: '关于', link: '/' },
+      { text: '关于',
+        items: [
+          { text: '关于 Blog', link: '/about/blog' },
+          { text: '关于我', link: '/about/me' }
+        ]
+      },
       { text: '示例', link: '/markdown-examples' }
     ],
 
