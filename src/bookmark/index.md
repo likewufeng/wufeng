@@ -98,6 +98,13 @@ pageClass: bookmark
       </div>
       <div data-v-bfc0154f="" class="desc line-clamp-2">This is about one JavaScript tip every day! JavaScript resources, react, angular, node, performance, front-end</div>
     </a>
+    <a data-v-bfc0154f="" class="card-item" href="https://www.x6d.com/" target="_blank">
+      <div data-v-bfc0154f="" class="flex items-center">
+        <img data-v-bfc0154f="" src="https://www.x6d.com/static/images/logo.png" loading="lazy" decoding="async" no-zoom="">
+        <span data-v-bfc0154f="" class="title">小刀娱乐</span>
+      </div>
+      <div data-v-bfc0154f="" class="desc line-clamp-2">专注活动，软件，教程分享！总之就是网络那些事</div>
+    </a>
   </div>
 
 ## 框架类库
@@ -153,6 +160,21 @@ pageClass: bookmark
       </div>
       <div data-v-bfc0154f="" class="desc line-clamp-2">提供强大的数据流组合和控制能力的Reactive编程库</div>
     </a>
+    <a data-v-bfc0154f="" class="card-item" href="https://tauri.app/" target="_blank">
+      <div data-v-bfc0154f="" class="flex items-center">
+        <img data-v-bfc0154f="" src="https://tauri.app/img/index/header_light.svg" loading="lazy" decoding="async" no-zoom="">
+        <span data-v-bfc0154f="" class="title">TAURI</span>
+      </div>
+      <div data-v-bfc0154f="" class="desc line-clamp-2">构建跨平台的快速、安全、前端隔离应用</div>
+    </a>
+    <a data-v-bfc0154f="" class="card-item" href="https://www.electronjs.org/" target="_blank">
+      <div data-v-bfc0154f="" class="flex items-center">
+        <img data-v-bfc0154f="" src="https://www.electronjs.org/assets/img/logo.svg" loading="lazy" decoding="async" no-zoom="">
+        <span data-v-bfc0154f="" class="title">Electron</span>
+      </div>
+      <div data-v-bfc0154f="" class="desc line-clamp-2">使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序</div>
+    </a>
+    
   </div>
 
 ## 在线学习
