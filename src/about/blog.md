@@ -1,3 +1,9 @@
+---
+layout: doc
+aside: true
+---
+
+
 # 关于Blog
 
 ## Dev & Deploy
