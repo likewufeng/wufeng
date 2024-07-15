@@ -456,13 +456,6 @@ pageClass: bookmark
       </div>
       <div data-v-bfc0154f="" class="desc line-clamp-2">嗨起来！</div>
     </a>
-    <a data-v-bfc0154f="" class="card-item" href="https://meiyida.tv/" target="_blank">
-      <div data-v-bfc0154f="" class="flex items-center">
-        <img data-v-bfc0154f="" src="/svg/load_error.svg" loading="lazy" decoding="async" no-zoom="">
-        <span data-v-bfc0154f="" class="title">美益达▪︎影剧</span>
-      </div>
-      <div data-v-bfc0154f="" class="desc line-clamp-2">美益达影视提供最新最快的电影电视剧免费在线观看</div>
-    </a>
     <a data-v-bfc0154f="" class="card-item" href="https://olevod.tv/" target="_blank">
       <div data-v-bfc0154f="" class="flex items-center">
         <img data-v-bfc0154f="" src="https://www.olevod.tv/favicon.ico" loading="lazy" decoding="async" no-zoom="">
@@ -476,13 +469,6 @@ pageClass: bookmark
         <span data-v-bfc0154f="" class="title">看看屋</span>
       </div>
       <div data-v-bfc0154f="" class="desc line-clamp-2">看看屋提供最全的最新电视剧，2020最新电影，韩国电视剧、香港TVB电视剧、日本动漫、日剧、美剧、综艺的在线观看和剧集交流场所，西瓜影音在线观看高清电影，每天第一时间更新，放送好看的迅雷电影下载。</div>
-    </a>
-    <a data-v-bfc0154f="" class="card-item" href="https://1080zyk3.com/" target="_blank">
-      <div data-v-bfc0154f="" class="flex items-center">
-        <img data-v-bfc0154f="" src="https://1080zyk3.com/favicon.ico" loading="lazy" decoding="async" no-zoom="">
-        <span data-v-bfc0154f="" class="title">高清资源库</span>
-      </div>
-      <div data-v-bfc0154f="" class="desc line-clamp-2">hdzyk,高清资源库,优质资源库</div>
     </a>
     <a data-v-bfc0154f="" class="card-item" href="https://soupian.pro/" target="_blank">
       <div data-v-bfc0154f="" class="flex items-center">

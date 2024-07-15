@@ -1,18 +1,23 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-15 13:12:10
+ * @LastEditTime: 2024-07-15 14:07:58
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
  * @FilePath: \wufeng\src\.vitepress\config.mts
  * Copyright 版权声明
  */
 import { SearchPlugin } from "vitepress-plugin-search";
+import antDesign from 'vite-plugin-imp'
 
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  plugins: [antDesign({
+    lib: 'ant-design-vue',
+    style: 'css',
+  })],
   vite: { plugins: [SearchPlugin({
     previewLength: 62,
     buttonLabel: "搜索",

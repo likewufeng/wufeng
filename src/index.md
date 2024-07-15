@@ -35,4 +35,3 @@ features:
       src: /svg/shenghuo.svg
     }
 ---
-
