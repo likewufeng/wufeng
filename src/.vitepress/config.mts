@@ -1,7 +1,7 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-15 14:07:58
+ * @LastEditTime: 2024-07-17 19:59:50
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
  * @FilePath: \wufeng\src\.vitepress\config.mts
@@ -46,14 +46,14 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '书签', link: '/bookmark' },
       { text: '随笔', link: '/essay/2024/npmrc小记' },
-      // { text: '分类',
-      //   items: [
-      //     { text: 'HTML', link: '/categories/blog' },
-      //     { text: 'CSS', link: '/categories/me' },
-      //     { text: 'JavaScript', link: '/categories/me' }
-      //   ]
-      // },
-      // { text: '归档', link: '/archives' },
+      { text: '分类',
+        items: [
+          { text: 'HTML', link: '/categories/html' },
+          { text: 'CSS', link: '/categories/css' },
+          { text: 'JavaScript', link: '/categories/javascript' },
+          { text: '历史', link: '/categories/history' }
+        ]
+      },
       { text: '关于',
         items: [
           { text: '关于 Blog', link: '/about/blog' },
@@ -82,6 +82,20 @@ export default defineConfig({
             { text: '从0到1开发一个自己的npm包完整过程', link: '/essay/2024/从0到1开发一个自己的npm包完整过程' },
             { text: 'Vite 开发环境UI框架库加载提速不同UI库的写法', link: '/essay/2024/Vite 开发环境UI框架库加载提速不同UI库的写法' },
             { text: '从 Windows 过度到 Mac 必备快捷键对照表', link: '/essay/2024/从 Windows 过度到 Mac 必备快捷键对照表' },
+          ]
+        }
+      ],
+      '/categories/': [
+        {
+          text: '历史',
+          items: [
+            { text: '朝代歌', link: '/categories/history/朝代歌' },
+            {
+              text: '六朝',
+              items: [
+                { text: '何为六朝', link: '/categories/history/六朝/何为六朝' },
+              ]
+            }
           ]
         }
       ],
