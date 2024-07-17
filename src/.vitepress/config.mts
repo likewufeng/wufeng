@@ -1,7 +1,7 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-17 19:59:50
+ * @LastEditTime: 2024-07-17 20:49:00
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
  * @FilePath: \wufeng\src\.vitepress\config.mts
@@ -86,6 +86,15 @@ export default defineConfig({
         }
       ],
       '/categories/': [
+        {
+          text: 'CSS',
+          items: [
+            {
+              text: 'css实现当文本内容过长时，中间显示省略号...，两端正常显示',
+              link: '/categories/css/css实现当文本内容过长时，中间显示省略号...，两端正常显示'
+            }
+          ]
+        },
         {
           text: '历史',
           items: [
