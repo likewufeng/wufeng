@@ -1,3 +1,12 @@
+<!--
+ * @Author: WuFeng <763467339@qq.com>
+ * @Date: 2024-10-22 10:35:39
+ * @LastEditTime: 2024-10-22 10:55:36
+ * @LastEditors: WuFeng <763467339@qq.com>
+ * @Description: 
+ * @FilePath: \wufeng\src\essay\2024\npmrc小记.md
+ * Copyright 版权声明
+-->
 # .npmrc 小记[](https://buqiyuan.github.io/essay/2022/npmrc小记.html#frontmatter-title)
 
 `.npmrc` 是 `npm` 配置文件，可以通过修改配置项对 `npm` 做配置
@@ -21,7 +30,7 @@ npm config get <key>
 #OR
 npm get <key>
 
-# 查看配置
+# 删除配置
 npm config delete <key>
 
 # 修改配置
@@ -31,6 +40,9 @@ npm set <key> <value>
 
 # 编辑配置文件
 npm config edit [-g|--global]
+
+# 设置npm源为淘宝镜像
+npm config set registry https://registry.npm.taobao.org
 ```
 
 [配置说明](https://docs.npmjs.com/cli/v8/using-npm/config#config-settings)
