@@ -1,7 +1,7 @@
 /*
  * @Author: WuFeng <763467339@qq.com>
  * @Date: 2024-07-12 16:58:17
- * @LastEditTime: 2024-07-17 20:49:00
+ * @LastEditTime: 2024-10-29 20:36:20
  * @LastEditors: WuFeng <763467339@qq.com>
  * @Description: 
  * @FilePath: \wufeng\src\.vitepress\config.mts
@@ -80,8 +80,8 @@ export default defineConfig({
             { text: '.npmrc小记', link: '/essay/2024/npmrc小记' },
             { text: 'Vite 开发环境UI框架库加载提速不同UI库的写法', link: '/essay/2024/Vite 开发环境UI框架库加载提速不同UI库的写法' },
             { text: '从0到1开发一个自己的npm包完整过程', link: '/essay/2024/从0到1开发一个自己的npm包完整过程' },
-            { text: 'Vite 开发环境UI框架库加载提速不同UI库的写法', link: '/essay/2024/Vite 开发环境UI框架库加载提速不同UI库的写法' },
             { text: '从 Windows 过度到 Mac 必备快捷键对照表', link: '/essay/2024/从 Windows 过度到 Mac 必备快捷键对照表' },
+            { text: '实用的工具包', link: '/essay/2024/实用的工具包' },
           ]
         }
       ],
